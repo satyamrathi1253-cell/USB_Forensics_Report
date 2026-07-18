@@ -1,0 +1,40 @@
+# Evidence Information 
+Examiner: Satyam Rathi 
+Case Id : 001 
+Evidence Id: USB001 
+
+Device Type: USB Flash Drive 
+Brand: HP 
+Label: New Volume
+Capacity: 117.19 GB 
+File System: NTFS 
+Drive Letter: D: 
+
+Status: Healthy (Primary Partition)
+Source: Physical USB Device
+
+## Initial Examination 
+
+Date: 19 July 2026
+
+Objective: To collect and document basic forensic information from the USB storage device without modifying its contents 
+
+Observations: - USB detected successfully. 
+                          - Device Status Healthy. 
+                          - File System: NTFS. 
+                          -Capacity: 117.19 GB.
+                          - No changes were made to the evidence during examination
+
+## Findings
+
+1. The USB device was successfully identified.
+2. The storage capacity is 117.19 GB.
+3. The file system is NTFS.
+4. The device was recognized as HP USB Flash Drive.
+5. The partition status is Healthy (Primary Partition).
+
+## Conclusion
+
+The USB device was successfully examined.
+Basic forensic information was collected without modifying the evidence.
+The device is ready for further forensic analysis using tools such as FTK Imager and Autopsy.

@@ -1,1 +1,51 @@
+ ## USB FORENSICS REPORT
 
+Examiner: Satyam Rathi
+Case ID: 001
+Evidence ID: USB001
+
+Date: 18 July 2026
+
+# 1. Evidence Details
+Device Name: HP USB Flash Drive
+Label: New Volume
+Capacity: 117.19 GB
+File System: NTFS
+Drive Letter: D:
+Status: Healthy (Primary Partition)
+
+# 2. Examination Procedure
+
+1. Connected the USB flash drive to the Windows system.
+2. Verified the device in This PC.
+3. Collected basic device information.
+4. Verified the file system (NTFS).
+5. Examined the partition in Disk Management.
+6. Documented the evidence without modifying any data.
+
+# 3. Tools Used
+
+• Windows File Explorer
+• Device Properties
+• Disk Management (diskmgmt.msc)
+
+# 4. Observations
+
+• The USB device was successfully detected by Windows.
+• The device label was "New Volume".
+• The file system was NTFS.
+• The storage capacity was 117.19 GB.
+• The partition status was Healthy (Primary Partition).
+• No changes were made to the evidence during the examination.
+
+# 5. Recommendation
+
+A forensic disk image of the USB device should be created using FTK Imager before performing any detailed analysis. The forensic image can then be examined in Autopsy to recover deleted files and analyze the evidence while preserving the original data.
+
+# 6. Evidence Integrity
+
+The examination was conducted in a read-only manner as much as possible. No files were copied, modified, or deleted during the initial examination. The original USB device remained unchanged throughout the documentation process.
+
+# 7. Conclusion
+
+The USB device was successfully documented and examined. Basic forensic information was collected, and the device is ready for forensic imaging and detailed analysis using FTK Imager and Autopsy. The collected evidence can be used for further digital forensic investigation.
